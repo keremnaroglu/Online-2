@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Online2.Core\Online2.Core.csproj" />
+    <ProjectReference Include="..\Online2.DAL\Online2.DAL.csproj" />
+    <ProjectReference Include="..\Online2.Entity\Online2.Entity.csproj" />
+    <ProjectReference Include="..\Online2.System\Online2.System.csproj" />
+    <ProjectReference Include="..\Online2.ViewModels\Online2.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
