@@ -3,23 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online2.Core", "Online2.Core\Online2.Core.csproj", "{F9AC3218-852C-46AB-928E-480D32D51722}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Online2.Core", "Online2.Core\Online2.Core.csproj", "{F9AC3218-852C-46AB-928E-480D32D51722}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online2.Entity", "Online2.Entity\Online2.Entity.csproj", "{2E504940-4E99-4F26-A96D-3EA7AF58F7AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Online2.Entity", "Online2.Entity\Online2.Entity.csproj", "{2E504940-4E99-4F26-A96D-3EA7AF58F7AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online2.DAL", "Online2.DAL\Online2.DAL.csproj", "{F7AFCD4C-AB56-4EBB-973E-78708E944785}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Online2.DAL", "Online2.DAL\Online2.DAL.csproj", "{F7AFCD4C-AB56-4EBB-973E-78708E944785}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online2.BLL", "Online2.BLL\Online2.BLL.csproj", "{0858BB5F-9ED3-4569-A82E-BB25B05EBDB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Online2.BLL", "Online2.BLL\Online2.BLL.csproj", "{0858BB5F-9ED3-4569-A82E-BB25B05EBDB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online2.WebAPI", "Online2.WebAPI\Online2.WebAPI.csproj", "{F4A68A81-B06C-4557-8FCF-BBC8C38B5D1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Online2.WebAPI", "Online2.WebAPI\Online2.WebAPI.csproj", "{F4A68A81-B06C-4557-8FCF-BBC8C38B5D1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online2.WebUI", "Online2.WebUI\Online2.WebUI.csproj", "{5D968084-3D92-4910-AF1E-7BDF665B6994}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Online2.WebUI", "Online2.WebUI\Online2.WebUI.csproj", "{5D968084-3D92-4910-AF1E-7BDF665B6994}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online2.WinUI", "Online2.WinUI\Online2.WinUI.csproj", "{6F9ABCF6-DE29-43D0-9DF3-6596AC18268F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Online2.WinUI", "Online2.WinUI\Online2.WinUI.csproj", "{6F9ABCF6-DE29-43D0-9DF3-6596AC18268F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online2.ViewModels", "Online2.ViewModels\Online2.ViewModels.csproj", "{0F11BAAE-6576-44B7-A7BF-E40345F8EF0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Online2.ViewModels", "Online2.ViewModels\Online2.ViewModels.csproj", "{0F11BAAE-6576-44B7-A7BF-E40345F8EF0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online2.System", "Online2.System\Online2.System.csproj", "{D831B1E4-C78B-4244-80BC-7BD09C5885A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online2.Syst", "Online2.Syst\Online2.Syst.csproj", "{5758A975-A565-45D8-A9BF-5745579E3C21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,10 +59,10 @@ Global
 		{0F11BAAE-6576-44B7-A7BF-E40345F8EF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F11BAAE-6576-44B7-A7BF-E40345F8EF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F11BAAE-6576-44B7-A7BF-E40345F8EF0C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D831B1E4-C78B-4244-80BC-7BD09C5885A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D831B1E4-C78B-4244-80BC-7BD09C5885A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D831B1E4-C78B-4244-80BC-7BD09C5885A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D831B1E4-C78B-4244-80BC-7BD09C5885A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5758A975-A565-45D8-A9BF-5745579E3C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5758A975-A565-45D8-A9BF-5745579E3C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5758A975-A565-45D8-A9BF-5745579E3C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5758A975-A565-45D8-A9BF-5745579E3C21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
