@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,8 +28,32 @@ namespace Online2.WinUI
             InitializeComponent();
         }
 
-        private void btn1_Click(object sender, EventArgs e)
+        private void Click(object sender, EventArgs e)
         {
+            Button btn = (Button)sender;
+
+            string tag = btn.Tag.ToString();
+
+            switch (tag)
+            {
+                case "1": LoginIn();
+                    break;
+                case "2": NewRegister();
+                    break;
+            } 
+        }
+
+        private void NewRegister()
+        {
+            Form frm = EFContextForm.ConfigureServices<Register>();
+            this.Hide();
+            frm.ShowDialog();
+            this.Show();
+        }
+
+        private void LoginIn()
+        {
+
             string userName = txtUserName.Text;
             string password = txtPassword.Text;
 
@@ -52,20 +77,24 @@ namespace Online2.WinUI
 
                 MessageBox.Show(errorMessage, errorType, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-            Form frm = default;
-
-            if (user.Data.UserTypes == UserTypes.Admin)
-            {
-                frm = EFContextForm.ConfigureServices<AdminForm>();
-            }
             else
             {
+                Form frm = default;
 
+                if (user.Data.UserTypes == UserTypes.Admin)
+                {
+                    frm = EFContextForm.ConfigureServices<AdminForm>();
+                }
+                else
+                {
+
+                }
+
+                frm.ShowDialog();
+                this.Close();
             }
 
-            frm.ShowDialog();
-            this.Close();
         }
+
     }
 }

@@ -33,6 +33,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.btn1 = new System.Windows.Forms.Button();
+            this.btnRegister = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -73,15 +74,28 @@
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(293, 29);
             this.btn1.TabIndex = 2;
+            this.btn1.Tag = "1";
             this.btn1.Text = "Giriş";
             this.btn1.UseVisualStyleBackColor = true;
-            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+
+            // 
+            // btnRegister
+            // 
+            this.btnRegister.Location = new System.Drawing.Point(125, 197);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(293, 29);
+            this.btnRegister.TabIndex = 2;
+            this.btnRegister.Tag = "2";
+            this.btnRegister.Text = "Kayıt Ol";
+            this.btnRegister.UseVisualStyleBackColor = true;
+
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUserName);
@@ -101,5 +115,12 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPassword;
         private Button btn1;
+        private Button btnRegister;
+        private Label label3;
+        private TextBox textBox1;
+        private Button btnGiris;
+        private Label label4;
+        private TextBox textBox2;
+        private Button btnKayit;
     }
 }
