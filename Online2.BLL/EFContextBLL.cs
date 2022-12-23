@@ -16,6 +16,7 @@ namespace Online2.BLL
         {
             services.AddScopedDal();
             services.AddScoped<IUserBLL, UserService>();
+            services.AddScoped<IMealBLL, MealService>();
         }
     }
 }
